@@ -14,13 +14,6 @@ provider:
   region: eu-west-1
 
 functions:
-  starter:
-    name: starter
-    handler: handler.engineStart
-    events:
-        - http:
-            path: gofunction
-            method: GET
   hello:
     name: hello
     handler: handler.hello
