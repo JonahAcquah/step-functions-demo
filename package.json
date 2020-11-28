@@ -1,0 +1,21 @@
+{
+  "name": "step-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "step": "sls step-functions-offline --stateMachine=menu-process"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.799.0",
+    "serverless": "1.70.0",
+    "serverless-offline": "6.8.0",
+    "serverless-step-functions": "2.29.0"
+  },
+  "devDependencies": {
+    "serverless-step-functions-offline": "2.1.4"
+  }
+}
